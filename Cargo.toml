@@ -1,0 +1,13 @@
+[package]
+name = "testing_order_book"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+websocket = "0.26.5"
+serde_json = "1.0"
+
+[patch.crates-io]
+traitobject = { git = "https://github.com/Zclim/rust-traitobject.git", branch = "master", package = "traitobject", version = "0.1.0" }
+
+
